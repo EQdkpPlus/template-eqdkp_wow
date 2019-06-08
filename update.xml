@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<update>
+	<styleupdate styleversion="0.3.0">
+		<delete>jquery_tmpl.css</delete>
+		<delete>images/ui-bg_flat_0_000000_40x100.png</delete>
+		<delete>images/ui-bg_flat_30_cccccc_40x100.png</delete>
+		<delete>images/ui-bg_flat_50_5c5c5c_40x100.png</delete>
+		<delete>images/ui-bg_glass_40_ffc73d_1x400.png</delete>
+		<delete>images/ui-bg_highlight-soft_100_d69038_1x100.png</delete>
+		<delete>images/ui-bg_highlight-soft_35_222222_1x100.png</delete>
+		<delete>images/ui-bg_highlight-soft_44_444444_1x100.png</delete>
+		<delete>images/ui-icons_222222_256x240.png</delete>
+		<delete>images/ui-icons_4b8e0b_256x240.png</delete>
+		<delete>images/ui-icons_a83300_256x240.png</delete>
+		<delete>images/ui-icons_cccccc_256x240.png</delete>
+		<delete>images/ui-icons_ffffff_256x240.png</delete>
+	</styleupdate>
+</update>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="template" version="2.3.0.17">
+	<folder>eqdkp_wow</folder>
+	<name>EQdkp WoW Classic</name>
+	<author>Asitara</author>
+	<authorEmail>majsterofdesaster@online.de</authorEmail>
+	<creationDate>1513132060</creationDate>
+	<copyright>(C)2019 Asitara</copyright>
+	<version>0.0.1</version>
+	<level>stable</level>
+</install>
