@@ -2488,7 +2488,7 @@ div.error { display: none; }
 	left: -15px;
 	border-style: solid;
 	border-width: 11px 15px 11px 0;
-	border-color: transparent #FFFFFF;
+	border-color: transparent #4b4a4d;
 	display: block;
 	width: 0;
 	z-index: 1;
@@ -2501,7 +2501,7 @@ div.error { display: none; }
 	left: -16px;
 	border-style: solid;
 	border-width: 11px 15px 11px 0;
-	border-color: transparent #ccc;
+	border-color: transparent #4b4a4d;
 	display: block;
 	width: 0;
 	z-index: 0;
@@ -4254,6 +4254,10 @@ body.module-iframe {
 
 .module-iframe #plus_debug_tabs {
 	display: none;
+}
+
+.fixed_width textarea {
+	max-width: 90%;
 }
 
 .fa-inverse{color: #000;}

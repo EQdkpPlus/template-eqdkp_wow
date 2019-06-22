@@ -4,23 +4,23 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>{SUBJECT}</title>
 	</head>
-	<body style="background-color: #000;font-size: 13px;font-family: Tahoma, Arial, Verdana, sans-serif;color: #eee;padding: 0;margin: 0;height: 100%">
+	<body style="background-color:#0a0a0a; font-size:13px; font-family:Arial,Helvetica,sans-serif; color:#fff; padding:0; margin:0; height:100%">
 		<div id="outerWrapper">
-			<div id="header" style="font-family: &quot;Trebuchet MS&quot;, Arial, sans-serif;vertical-align: middle;width: 80%;height: 120px;margin: 0 auto">
-				<img src="cid:headerlogo" id="logo" style="max-height: 100px;margin-left: 15px;float: left" /></div>
-			<div id="main" style="width: 80%;overflow: auto;margin: 0 auto;background-color: rgba(66, 66, 66, 0.8);border: 1px solid #aaa;border-radius: 4px 4px 4px 4px;padding: 10px;box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.4)">
-				<div id="content" style="background-color: #1d3953;padding: 20px;border: 1px solid #195278;box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.3)">
-					<h1 style="color: #fff;font-family: &quot;Trebuchet MS&quot;, Arial, sans-serif;font-weight: bold;padding-bottom: 5px;border-bottom: 1px solid #CCC;margin: 5px 0 10px 0;font-size: 20px">{SUBJECT}</h1>
+			<div id="header" style="vertical-align:middle; width:80%; height:120px; margin:0 auto">
+				<img src="cid:headerlogo" id="logo" style="max-height:100px; margin-left:15px; float:left" /></div>
+			<div id="main" style="width:80%; overflow:auto; margin:0 auto; background-color:rgba(66,66,66,.8); border:1px solid #4b4a4d; padding:10; box-shadow:0 0 2px 2px rgba(0,0,0,.4)">
+				<div id="content" style="background-color:rgba(35,35,35,.7); padding:20px; border:1px solid #4b4a4d; box-shadow:0 0 2px 2px rgba(0,0,0,.3)">
+					<h1 style="color:#f60; font-weight:bold; padding-bottom:5px; border-bottom:1px solid #ccc; margin:5px 0 10px 0; font-size:20px">{SUBJECT}</h1>
 					{CONTENT}
 				</div>
 				
-				<div id="signature" style="margin-top: 1em">
+				<div id="signature" style="margin-top:1em">
 					{SIGNATURE}
 				</div>
 			</div>
 		</div>
-		<div id="footer" style="margin-top: 1em;font-size: 12px;text-align: center;padding: 10px;color: #fff">
-			<a href="{PLUSLINK}" style="color: #fff;text-decoration: none">EQDKP Plus {PLUSVERSION}</a>
+		<div id="footer" style="margin-top:1em; font-size:12px; text-align:center; padding:10px; color:#fff">
+			<a href="{PLUSLINK}" style="color:#ffc107; text-decoration:none">EQDKP Plus {PLUSVERSION}</a>
 		</div>
 	</body>
 </html>

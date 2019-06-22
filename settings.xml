@@ -24,7 +24,7 @@
 	<container_background_color>rgba(35, 35, 35, 0)</container_background_color>
 	<container_border_color>rgba(75, 74, 77, 0)</container_border_color>
 	<content_background_color>rgba(35, 35, 35, .7)</content_background_color>
-	<content_font_color>rgb(159, 159, 159)</content_font_color>
+	<content_font_color>#9f9f9f</content_font_color>
 	<content_font_color_headings>#f60</content_font_color_headings>
 	<content_link_color></content_link_color>
 	<content_link_color_hover></content_link_color_hover>
