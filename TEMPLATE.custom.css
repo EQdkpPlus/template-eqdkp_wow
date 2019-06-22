@@ -133,6 +133,32 @@
 
 
 
+// Color Usernames of special Group
+//    If you want to change the color of special groups, change following list.
+//    List Parameter (seperate each group by comma):    user-group-id    color
+
+.custom-css_group-usernames(
+	// 1 #000,   // This line change the color of group 1 to black
+	// 3 #fff,   // This line change the color of group 3 to white
+	// 4 #aaa
+;);
+
+.custom-css_group-usernames(@groups, @i:1) when(@i <= length(@groups)){
+	@id: extract(extract(@groups, @i), 1);
+	@color: extract(extract(@groups, @i), 2);
+
+	.syntax-check() when(isnumber(@id)) and(iscolor(@color)){
+		a[data-user-group-id="@{id}"] { color: @color !important; }
+		a[data-usergroup-id="@{id}"] { background-color: @color; }
+		[data-user-group-id="@{id}"] img { border: 2px solid @color !important; }
+
+	}.syntax-check();
+
+	.custom-css_group-usernames(@groups, @i+1);
+}
+
+
+
 // Sort Roles/Classes on Raid Event Detail View in custom order
 //    If you want to sort the Roles/Classes on Raid Event Detail View in custom order.
 //    Uncomment and change the following line, parameters are class-id 1,2,3,4,5...
