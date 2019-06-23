@@ -4047,9 +4047,11 @@ button.thirdpartylogin.discord {
 }
 
 .article-container.list-type4 {
-	width: 500px;
+	width: 480px;
 	margin-right:20px;
 	background-color: @eqdkpContentContrastBackgroundColor;
+	flex-grow: 1;
+	display: block;
 }
 
 .list-type4 .article-banner-image {
@@ -4057,6 +4059,14 @@ button.thirdpartylogin.discord {
 	display:flex;
 	max-height:160px;
 	overflow:hidden;
+}
+
+.list-type4 .article-banner-image a {
+	display: block;
+	height: 160px;
+	background-position: center center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
 }
 
 .list-type4 .news_author {
