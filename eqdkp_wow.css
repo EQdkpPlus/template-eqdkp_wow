@@ -4053,6 +4053,7 @@ button.thirdpartylogin.discord {
 	background-position: center center;
   	background-repeat: no-repeat;
   	background-size: cover;
+	width: 100%;
 }
 
 .list-type4 .news_author {
